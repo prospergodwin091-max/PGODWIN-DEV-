@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO -->
+  <title>About PGODWIN - Prosper Godwin | Web Developer Nigeria</title>
+  <meta name="description" content="Learn about Prosper Godwin, founder of PGODWIN DEV. A young Nigerian software developer passionate about building websites and software for businesses and schools.">
+  <meta property="og:title" content="About PGODWIN DEV">
+  <meta property="og:description" content="Mission: To develop innovative digital solutions that empower people and organizations.">
+  <meta property="og:image" content="https://pgodwindev.netlify.app/logo.png">
+  <meta property="og:url" content="https://pgodwindev.netlify.app/about.html">
+  <meta property="og:type" content="website">
+
+  <link rel="icon" href="icon.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { darkMode: 'class' }</script>
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
+
+  <!-- NAVBAR -->
+<nav class="fixed w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-md z-50 shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
+    <!-- LOGO -->
+    <a href="index.html" class="flex items-center gap-3">
+      <img src="logo.png" class="h-10 rounded" alt="PGODWIN DEV Logo">
+      <h1 class="text-2xl font-bold text-blue-600">PGODWIN<span class="dark:text-white">DEV</span></h1>
+    </a>
+
+    <!-- DESKTOP MENU -->
+    <div id="desktop-menu" class="hidden md:flex gap-8">
+      <a href="index.html" class="hover:text-blue-600">Home</a>
+      <a href="about.html" class="hover:text-blue-600">About</a>
+      <a href="services.html" class="hover:text-blue-600">Services</a>
+      <a href="portfolio.html" class="hover:text-blue-600">Portfolio</a>
+      <a href="blog.html" class="hover:text-blue-600">Blog</a>
+      <a href="contact.html" class="hover:text-blue-600">Contact</a>
+    </div>
+
+    <!-- RIGHT SIDE BUTTONS -->
+    <div class="flex items-center gap-3">
+      <button id="theme-toggle" class="px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-lg">🌙</button>
+      
+      <!-- HAMBURGER BUTTON - Only shows on mobile -->
+      <button id="menu-btn" class="md:hidden px-3 py-2 bg-gray-200 dark:bg-gray-700 rounded-lg text-2xl">☰</button>
+    </div>
+  </div>
+
+  <!-- MOBILE MENU - Hidden by default -->
+  <div id="mobile-menu" class="hidden md:hidden bg-white dark:bg-gray-900 px-6 pb-4 space-y-3">
+    <a href="index.html" class="block hover:text-blue-600">Home</a>
+    <a href="about.html" class="block hover:text-blue-600">About</a>
+    <a href="services.html" class="block hover:text-blue-600">Services</a>
+    <a href="portfolio.html" class="block hover:text-blue-600">Portfolio</a>
+    <a href="blog.html" class="block hover:text-blue-600">Blog</a>
+    <a href="contact.html" class="block hover:text-blue-600">Contact</a>
+  </div>
+</nav>
+
+  <!-- ABOUT SECTION -->
+  <section class="pt-32 pb-20 px-6 max-w-7xl mx-auto">
+    <h2 class="section-title">About PGODWIN DEV</h2>
+    
+    <!-- WHO IS PGODWIN -->
+    <div class="grid md:grid-cols-2 gap-12 items-center mb-20">
+      <img src="founder.jpg" alt="Prosper Godwin" class="rounded-2xl shadow-lg">
+      <div>
+        <h3 class="text-2xl font-bold mb-4">Who is PGODWIN?</h3>
+        <p class="mb-4">PGODWIN is a young Nigerian software developer and entrepreneur passionate about using technology to solve real-world problems.</p>
+        <p class="mb-6">As the founder of PGODWIN DEV, my mission is to create software that improves businesses, education, and everyday life.</p>
+        <a href="PGODWIN-CV.pdf" download="PGODWIN-CV.pdf" class="bg-yellow-400 text-black font-bold px-6 py-3 rounded-lg inline-block hover:bg-yellow-500 shadow-lg">
+  📄 Download My CV
+</a>
+      </div>
+    </div>
+
+    <!-- MISSION & VISION -->
+    <div class="grid md:grid-cols-2 gap-8 mb-20">
+      <div class="bg-blue-50 dark:bg-gray-800 p-8 rounded-xl">
+        <h3 class="text-2xl font-bold mb-4 text-blue-600">🎯 Our Mission</h3>
+        <p class="text-lg">To develop innovative digital solutions that empower people and organizations to succeed in the digital world.</p>
+      </div>
+      <div class="bg-blue-50 dark:bg-gray-800 p-8 rounded-xl">
+        <h3 class="text-2xl font-bold mb-4 text-blue-600">🚀 Our Vision</h3>
+        <p class="text-lg">To make PGODWIN DEV one of Africa's leading software development companies by 2030.</p>
+      </div>
+    </div>
+
+    <!-- WHY CHOOSE US -->
+    <div>
+      <h2 class="section-title">Why Choose PGODWIN DEV?</h2>
+      <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div class="service-box">✨ Professional Designs</div>
+        <div class="service-box">⚡ Fast Websites</div>
+        <div class="service-box">📱 Mobile Friendly</div>
+        <div class="service-box">💰 Affordable Prices</div>
+        <div class="service-box">🤝 Reliable Support</div>
+        <div class="service-box">🔧 Modern Technologies</div>
+        <div class="service-box">😊 Customer Satisfaction</div>
+        <div class="service-box">🛡️ Secure & Reliable</div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="py-8 px-6 bg-gray-900 text-white text-center">
+    <p>© 2026 PGODWIN DEV. All Rights Reserved.</p>
+    <p>Building the Future Through Technology.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Services - Website Design, School Systems | PGODWIN DEV</title>
+  <meta name="description" content="Services offered by PGODWIN DEV: Website Development, Responsive Design, School Management Systems, Business Websites, UI/UX Design in Nigeria.">
+  <link rel="icon" href="icon.png"><link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script><script>tailwind.config = { darkMode: 'class' }</script>
+</head>
+<body class="bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
+<!-- NAVBAR -->
+<nav class="fixed w-full bg-white/80 dark:bg-gray-900/80 backdrop-blur-md z-50 shadow-sm">
+  <div class="max-w-7xl mx-auto px-6 py-3 flex justify-between items-center">
+    <!-- LOGO -->
+    <a href="index.html" class="flex items-center gap-3">
+      <img src="logo.png" class="h-10 rounded" alt="PGODWIN DEV Logo">
+      <h1 class="text-2xl font-bold text-blue-600">PGODWIN<span class="dark:text-white">DEV</span></h1>
+    </a>
+
+    <!-- DESKTOP MENU -->
+    <div id="desktop-menu" class="hidden md:flex gap-8">
+      <a href="index.html" class="hover:text-blue-600">Home</a>
+      <a href="about.html" class="hover:text-blue-600">About</a>
+      <a href="services.html" class="hover:text-blue-600">Services</a>
+      <a href="portfolio.html" class="hover:text-blue-600">Portfolio</a>
+      <a href="blog.html" class="hover:text-blue-600">Blog</a>
+      <a href="contact.html" class="hover:text-blue-600">Contact</a>
+    </div>
+
+    <!-- RIGHT SIDE BUTTONS -->
+    <div class="flex items-center gap-3">
+      <button id="theme-toggle" class="px-4 py-2 bg-gray-200 dark:bg-gray-700 rounded-lg">🌙</button>
+      
+      <!-- HAMBURGER BUTTON - Only shows on mobile -->
+      <button id="menu-btn" class="md:hidden px-3 py-2 bg-gray-200 dark:bg-gray-700 rounded-lg text-2xl">☰</button>
+    </div>
+  </div>
+
+  <!-- MOBILE MENU - Hidden by default -->
+  <div id="mobile-menu" class="hidden md:hidden bg-white dark:bg-gray-900 px-6 pb-4 space-y-3">
+    <a href="index.html" class="block hover:text-blue-600">Home</a>
+    <a href="about.html" class="block hover:text-blue-600">About</a>
+    <a href="services.html" class="block hover:text-blue-600">Services</a>
+    <a href="portfolio.html" class="block hover:text-blue-600">Portfolio</a>
+    <a href="blog.html" class="block hover:text-blue-600">Blog</a>
+    <a href="contact.html" class="block hover:text-blue-600">Contact</a>
+  </div>
+</nav>
+
+<section class="pt-32 pb-20 px-6 bg-gray-50 dark:bg-gray-800">
+  <h2 class="section-title">Our Services</h2>
+  <p class="text-center mb-12 max-w-3xl mx-auto">I help businesses, schools and individuals grow online with modern, fast and affordable digital solutions.</p>
+  
+  <div class="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+    <div class="service-box text-left"><h3 class="text-xl font-bold mb-2">🌐 Website Development</h3><p>Custom websites built with HTML, CSS, Tailwind & JavaScript. Fast, secure and SEO optimized.</p></div>
+    <div class="service-box text-left"><h3 class="text-xl font-bold mb-2">📱 Responsive Web Design</h3><p>Your website will look perfect on phone, tablet and desktop. Mobile-first design guaranteed.</p></div>
+    <div class="service-box text-left"><h3 class="text-xl font-bold mb-2">🏫 School Management Systems</h3><p>Complete system for schools: Student portal, results, fees, attendance. Digitalize your school today.</p></div>
+    <div class="service-box text-left"><h3 class="text-xl font-bold mb-2">🏢 Business Websites</h3><p>Showcase your products and services. Get more customers through Google and WhatsApp.</p></div>
+    <div class="service-box text-left"><h3 class="text-xl font-bold mb-2">💼 Portfolio Websites</h3><p>Perfect for freelancers, developers and creatives who want to showcase their work professionally.</p></div>
+    <div class="service-box text-left"><h3 class="text-xl font-bold mb-2">⚡ Landing Pages</h3><p>High-converting single pages for ads, products and events. Get leads in 7 days.</p></div>
+    <div class="service-box text-left"><h3 class="text-xl font-bold mb-2">🔧 Website Maintenance</h3><p>I will keep your website updated, fast and secure monthly so you can focus on business.</p></div>
+    <div class="service-box text-left"><h3 class="text-xl font-bold mb-2">🎨 UI/UX Design</h3><p>Beautiful and user-friendly designs that make customers love using your website or app.</p></div>
+  </div>
+
+  <div class="text-center mt-16">
+    <h3 class="text-2xl font-bold mb-4">Ready to start your project?</h3>
+    <a href="contact.html" class="btn-primary">Get a Free Quote</a>
+  </div>
+</section>
+
+<footer class="py-8 px-6 bg-gray-900 text-white text-center"><p>© 2026 PGODWIN DEV</p></footer>
+<script src="script.js"></script></body></html>
